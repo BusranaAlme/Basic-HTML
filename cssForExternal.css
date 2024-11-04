@@ -1,0 +1,25 @@
+/* external */
+
+/* tag name selector */
+p{
+    color: green;
+    font-size: 30px;
+    background-color: yellow;
+}
+
+/* selector by classname */
+
+.my-class{
+    color: brown;
+}
+.alme{
+    color:red;
+}
+
+/* selector by ID name */
+#id1{
+    color: royalblue;
+}
+#id2{
+    color: burlywood
+}
