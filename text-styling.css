@@ -1,0 +1,39 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+
+/* global selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: red;
+    background-color: green;
+    font-size: 32px;
+    text-align: center;
+    /* fontiwieght-normal (400)/bold */
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* wothin quotation- multiple fonts */
+    /* there are many fonts using comma in a line because if the first one can't be loaded. the next will be applied */
+   
+} 
+body {
+    background-image: url('/obstactle.png');
+    background-size: cover;
+    background-position: center;
+    height: 400;
+    width: 300;
+    font-family: "Roboto", sans-serif;
+}
+.my-class{
+    /* margin: 40px; */
+    border: solid red;
+}
+button{
+    border: 2px solid green;
+    padding: 10px, 20px;
+    border-radius: 10px;
+    background-color: yellow;
+}
